@@ -257,6 +257,7 @@
 		05F471DD1F2B5CE500738744 /* Box.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Box.hpp; sourceTree = "<group>"; };
 		05F471E51F2B5CEE00738744 /* Parser.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Parser.cpp; sourceTree = "<group>"; };
 		05F471E71F2B5CEF00738744 /* Box.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Box.cpp; sourceTree = "<group>"; };
+		BB95E26121183A3500D032F2 /* MadvMP4Boxes.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MadvMP4Boxes.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -566,6 +567,7 @@
 		05BFED231F63956C00A6909E /* ISOBMFF-Dump */ = {
 			isa = PBXGroup;
 			children = (
+				BB95E26121183A3500D032F2 /* MadvMP4Boxes.h */,
 				05BFED241F63956C00A6909E /* main.cpp */,
 			);
 			path = "ISOBMFF-Dump";

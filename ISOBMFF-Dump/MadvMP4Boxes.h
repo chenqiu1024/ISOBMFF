@@ -36,6 +36,17 @@ typedef struct _MADV_MP4_USERDATA_BEAUTY_t_
     uint32_t beauty_type;
 }MADV_MP4_USERDATA_BEAUTY_t;
 
+typedef struct _MADV_CAMERA_GPS_INFO_s_ {
+    uint32_t tick_count;
+    uint8_t LatitudeRef[2];
+    uint8_t Latitude[24];
+    uint8_t LongitudeRef[2];
+    uint8_t Longitude[24];
+    uint8_t AltitudeRef[2];
+    uint8_t Altitude[24];
+    char  Reserved[512];
+} MADV_CAMERA_GPS_INFO_s;
+
 //mp4文件user data段的GPS信息
 typedef struct _MADV_MP4_USERDATA_GPS_t_
 {
