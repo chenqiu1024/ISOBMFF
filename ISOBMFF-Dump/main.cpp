@@ -29,6 +29,7 @@
  */
 
 #include <ISOBMFF.hpp>
+//#include "MadvMP4Boxes.h"
 #include <iostream>
 #include <fstream>
 #include <cstring>
@@ -112,9 +113,22 @@ int main( int argc, const char * argv[] )
         std::vector<std::shared_ptr< ISOBMFF::Box > > boxes = file->GetBoxes();
         for (std::shared_ptr< ISOBMFF::Box > box : boxes)
         {
-            std::cout << "Box : " << *box << std::endl;
+            std::cout << "Box '" << box->GetName().c_str() << "': " << *box << std::endl;
+            if (0 == strcmp(box->GetName().c_str(), "moov"))
+            {
+                ISOBMFF::ContainerBox* containerBox = static_cast<ISOBMFF::ContainerBox*>(box.get());
+                std::vector< std::shared_ptr< Box > > subBoxes = containerBox->GetBoxes();
+                for (std::shared_ptr< ISOBMFF::Box > subBox : subBoxes)
+                {
+                    if (0 == strcmp(subBox->GetName().c_str(), "udta"))
+                    {
+                        std::vector<uint8_t> userData = subBox->GetData();
+                        std::cout << "udta length = " << userData.size() << std::endl;
+                    }
+                }
+            }
         }
-        std::cout << *file << std::endl << std::endl;
+//        std::cout << *file << std::endl << std::endl;
     }
 
     #if defined( _WIN32 ) && defined( _DEBUG )
