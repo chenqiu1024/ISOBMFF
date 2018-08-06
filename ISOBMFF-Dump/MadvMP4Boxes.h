@@ -19,6 +19,12 @@
 
 #define MADV_TAG_MAX_NUMBER 20
 
+typedef struct _USERDATA_TAG_t_
+{
+    uint32_t timestamp;
+    uint32_t duration;
+} USERDATA_TAG_t;
+
 //mp4文件user data段的路剪信息
 typedef struct _MADV_MP4_USERDATA_TAG_t_
 {
