@@ -62,11 +62,11 @@
       <CommandLineArguments>
          <CommandLineArgument
             argument = "/Users/domqiu/Movies/VID_20170220_182639AA.MP4"
-            isEnabled = "NO">
+            isEnabled = "YES">
          </CommandLineArgument>
          <CommandLineArgument
             argument = "/Users/qiudong/Movies/SampleMedias/LUT_Stitch/VID_20170220_182639AA.MP4"
-            isEnabled = "YES">
+            isEnabled = "NO">
          </CommandLineArgument>
          <CommandLineArgument
             argument = "$(BUILT_PRODUCTS_DIR)/MOV1.MOV"

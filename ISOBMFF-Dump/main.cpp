@@ -36,6 +36,30 @@
 
 using namespace ISOBMFF;
 
+inline int32_t readLittleEndianInt32(const void* ptr) {
+    const uint8_t* bytes = (const uint8_t*)ptr;
+    int32_t ret = bytes[0] | (bytes[1] << 8) | (bytes[2] << 16) | (bytes[3] << 24);
+    return ret;
+}
+
+inline int32_t readBigEndianInt32(const void* ptr) {
+    const uint8_t* bytes = (const uint8_t*)ptr;
+    int32_t ret = bytes[3] | (bytes[2] << 8) | (bytes[1] << 16) | (bytes[0] << 24);
+    return ret;
+}
+
+inline int16_t readLittleEndianInt16(const void* ptr) {
+    const uint8_t* bytes = (const uint8_t*)ptr;
+    int32_t ret = bytes[0] | (bytes[1] << 8);
+    return (int16_t)ret;
+}
+
+inline int16_t readBigEndianInt16(const void* ptr) {
+    const uint8_t* bytes = (const uint8_t*)ptr;
+    int32_t ret = bytes[1] | (bytes[0] << 8);
+    return (int16_t)ret;
+}
+
 class CustomBox: public ISOBMFF::Box
 {
 public:
@@ -123,7 +147,37 @@ int main( int argc, const char * argv[] )
                     if (0 == strcmp(subBox->GetName().c_str(), "udta"))
                     {
                         std::vector<uint8_t> userData = subBox->GetData();
-                        std::cout << "udta length = " << userData.size() << std::endl;
+                        int boxBytesSize = (int)userData.size();
+                        std::cout << "udta length = " << boxBytesSize << std::endl;
+                        uint8_t* pRead = userData.data();
+                        for (int iRead = 0; iRead < boxBytesSize;)
+                        {
+                            uint32_t* pReadInt = (uint32_t*)pRead;
+                            uint32_t size = (uint32_t)readBigEndianInt32(pReadInt++);
+                            uint32_t type = (uint32_t)readLittleEndianInt32(pReadInt++);
+                            pRead = (uint8_t*)pReadInt;
+                            switch (type)
+                            {
+                                case MADV_MP4_USERDATA_MADV:
+                                    break;
+                                case MADV_MP4_USERDATA_TAG_TYPE:
+                                    break;
+                                case MADV_MP4_USERDATA_BEAUTY_TYPE:
+                                    break;
+                                case MADV_MP4_USERDATA_CAMERA_INFO_TYPE:
+                                    break;
+                                case MADV_MP4_USERDATA_GPS_TYPE:
+                                    break;
+                                case MADV_MP4_USERDATA_LUT_TYPE:
+                                    break;
+                                case MADV_MP4_USERDATA_GYRO_TYPE:
+                                    break;
+                                default:
+                                    break;
+                            }
+                            pRead += (size - 2 * sizeof(uint32_t));
+                            iRead += (2 * sizeof(uint32_t) + size);
+                        }
                     }
                 }
             }
