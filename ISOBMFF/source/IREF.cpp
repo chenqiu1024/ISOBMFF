@@ -45,7 +45,7 @@ class XS::PIMPL::Object< ISOBMFF::IREF >::IMPL
 };
 
 #define XS_PIMPL_CLASS ISOBMFF::IREF
-#include <XS/PIMPL/Object-IMPL.hpp>
+#include <ISOBMFF/Object-IMPL.hpp>
 
 namespace ISOBMFF
 {

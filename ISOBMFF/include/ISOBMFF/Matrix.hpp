@@ -31,7 +31,7 @@
 #ifndef ISOBMFF_MATRIX_HPP
 #define ISOBMFF_MATRIX_HPP
 
-#include <XS/PIMPL/Object.hpp>
+#include <ISOBMFF/Object.hpp>
 #include <ISOBMFF/Macros.hpp>
 #include <ISOBMFF/DisplayableObject.hpp>
 #include <cstdint>

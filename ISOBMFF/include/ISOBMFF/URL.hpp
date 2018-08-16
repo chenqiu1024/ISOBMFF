@@ -31,7 +31,7 @@
 #ifndef ISOBMFF_URL_HPP
 #define ISOBMFF_URL_HPP
 
-#include <XS/PIMPL/Object.hpp>
+#include <ISOBMFF/Object.hpp>
 #include <ISOBMFF/Macros.hpp>
 #include <ISOBMFF/FullBox.hpp>
 

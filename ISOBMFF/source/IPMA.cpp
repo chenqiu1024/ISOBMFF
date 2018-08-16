@@ -43,7 +43,7 @@ class XS::PIMPL::Object< ISOBMFF::IPMA >::IMPL
 };
 
 #define XS_PIMPL_CLASS ISOBMFF::IPMA
-#include <XS/PIMPL/Object-IMPL.hpp>
+#include <ISOBMFF/Object-IMPL.hpp>
 
 namespace ISOBMFF
 {

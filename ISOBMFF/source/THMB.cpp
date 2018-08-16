@@ -41,7 +41,7 @@ class XS::PIMPL::Object< ISOBMFF::THMB >::IMPL
 };
 
 #define XS_PIMPL_CLASS ISOBMFF::THMB
-#include <XS/PIMPL/Object-IMPL.hpp>
+#include <ISOBMFF/Object-IMPL.hpp>
 
 namespace ISOBMFF
 {

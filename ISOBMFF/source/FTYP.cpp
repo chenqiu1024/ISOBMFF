@@ -47,7 +47,7 @@ class XS::PIMPL::Object< ISOBMFF::FTYP >::IMPL
 };
 
 #define XS_PIMPL_CLASS ISOBMFF::FTYP
-#include <XS/PIMPL/Object-IMPL.hpp>
+#include <ISOBMFF/Object-IMPL.hpp>
 
 namespace ISOBMFF
 {

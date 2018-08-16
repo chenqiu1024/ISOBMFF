@@ -31,7 +31,7 @@
 #ifndef ISOBMFF_FILE_HPP
 #define ISOBMFF_FILE_HPP
 
-#include <XS/PIMPL/Object.hpp>
+#include <ISOBMFF/Object.hpp>
 #include <ISOBMFF/Macros.hpp>
 #include <ISOBMFF/ContainerBox.hpp>
 #include <ostream>

@@ -31,7 +31,7 @@
 #ifndef ISOBMFF_SINGLE_ITEM_TYPE_REFERENCE_BOX_HPP
 #define ISOBMFF_SINGLE_ITEM_TYPE_REFERENCE_BOX_HPP
 
-#include <XS/PIMPL/Object.hpp>
+#include <ISOBMFF/Object.hpp>
 #include <ISOBMFF/Macros.hpp>
 #include <ISOBMFF/Box.hpp>
 #include <cstdint>

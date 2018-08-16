@@ -31,7 +31,7 @@
 #ifndef ISOBMFF_IINF_HPP
 #define ISOBMFF_IINF_HPP
 
-#include <XS/PIMPL/Object.hpp>
+#include <ISOBMFF/Object.hpp>
 #include <ISOBMFF/Macros.hpp>
 #include <ISOBMFF/Container.hpp>
 #include <ISOBMFF/FullBox.hpp>

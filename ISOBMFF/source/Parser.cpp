@@ -83,7 +83,7 @@ class XS::PIMPL::Object< ISOBMFF::Parser >::IMPL
 };
 
 #define XS_PIMPL_CLASS ISOBMFF::Parser
-#include <XS/PIMPL/Object-IMPL.hpp>
+#include <ISOBMFF/Object-IMPL.hpp>
 
 namespace ISOBMFF
 {

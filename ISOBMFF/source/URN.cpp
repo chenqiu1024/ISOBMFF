@@ -41,7 +41,7 @@ class XS::PIMPL::Object< ISOBMFF::URN >::IMPL
 };
 
 #define XS_PIMPL_CLASS ISOBMFF::URN
-#include <XS/PIMPL/Object-IMPL.hpp>
+#include <ISOBMFF/Object-IMPL.hpp>
 
 namespace ISOBMFF
 {

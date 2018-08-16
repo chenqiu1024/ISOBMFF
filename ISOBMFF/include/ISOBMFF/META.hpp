@@ -31,7 +31,7 @@
 #ifndef ISOBMFF_META_HPP
 #define ISOBMFF_META_HPP
 
-#include <XS/PIMPL/Object.hpp>
+#include <ISOBMFF/Object.hpp>
 #include <ISOBMFF/Macros.hpp>
 #include <ISOBMFF/FullBox.hpp>
 #include <ISOBMFF/Container.hpp>

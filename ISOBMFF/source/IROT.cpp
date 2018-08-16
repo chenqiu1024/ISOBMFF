@@ -44,7 +44,7 @@ class XS::PIMPL::Object< ISOBMFF::IROT >::IMPL
 };
 
 #define XS_PIMPL_CLASS ISOBMFF::IROT
-#include <XS/PIMPL/Object-IMPL.hpp>
+#include <ISOBMFF/Object-IMPL.hpp>
 
 namespace ISOBMFF
 {

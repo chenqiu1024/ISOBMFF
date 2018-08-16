@@ -62,7 +62,7 @@ class XS::PIMPL::Object< ISOBMFF::HVCC >::IMPL
 };
 
 #define XS_PIMPL_CLASS ISOBMFF::HVCC
-#include <XS/PIMPL/Object-IMPL.hpp>
+#include <ISOBMFF/Object-IMPL.hpp>
 
 namespace ISOBMFF
 {

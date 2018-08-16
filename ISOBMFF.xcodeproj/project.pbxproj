@@ -52,12 +52,13 @@
 		05BFED0D1F63870300A6909E /* IPMA.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 05BFED0C1F63870300A6909E /* IPMA.cpp */; };
 		05BFED111F63894100A6909E /* IPMA-Entry.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 05BFED101F63894100A6909E /* IPMA-Entry.cpp */; };
 		05BFED131F638E4B00A6909E /* IPMA-Entry-Association.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 05BFED121F638E4A00A6909E /* IPMA-Entry-Association.cpp */; };
-		05BFED1A1F63952E00A6909E /* libISOBMFF.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0515C8AF1F2A71A8003B8594 /* libISOBMFF.a */; };
+		05BFED1A1F63952E00A6909E /* libISOBMFF_macOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0515C8AF1F2A71A8003B8594 /* libISOBMFF_macOS.a */; };
 		05BFED1C1F63952E00A6909E /* IMG1.HEIC in CopyFiles */ = {isa = PBXBuildFile; fileRef = 057280C41F5F5B4E00F02C27 /* IMG1.HEIC */; };
 		05BFED1D1F63952E00A6909E /* IMG2.HEIC in CopyFiles */ = {isa = PBXBuildFile; fileRef = 057280C61F5F5B4E00F02C27 /* IMG2.HEIC */; };
 		05BFED1E1F63952E00A6909E /* MOV1.MOV in CopyFiles */ = {isa = PBXBuildFile; fileRef = 057280C51F5F5B4E00F02C27 /* MOV1.MOV */; };
 		05BFED251F6397D400A6909E /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 05BFED241F63956C00A6909E /* main.cpp */; };
-		05DA96061F2A7D5B005F46DB /* libISOBMFF.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0515C8AF1F2A71A8003B8594 /* libISOBMFF.a */; };
+		05DA96061F2A7D5B005F46DB /* libISOBMFF_macOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0515C8AF1F2A71A8003B8594 /* libISOBMFF_macOS.a */; };
+		05DA96121F2A7DC3005F46DB /* GoogleMock.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 05A4111A1F2A7D2E002B1A79 /* GoogleMock.framework */; };
 		05DA96141F2A7DD4005F46DB /* Parser.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 05DA96131F2A7DD4005F46DB /* Parser.cpp */; };
 		05EAD3901F65B346003CCB9B /* Utils.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 05EAD38F1F65B345003CCB9B /* Utils.cpp */; };
 		05EAD3941F65CD84003CCB9B /* DisplayableObject.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 05EAD3931F65CD83003CCB9B /* DisplayableObject.cpp */; };
@@ -65,6 +66,100 @@
 		05EAD3AD1F65FEFE003CCB9B /* TKHD.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 05EAD3AC1F65FEFE003CCB9B /* TKHD.cpp */; };
 		05F471E81F2B5CEF00738744 /* Parser.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 05F471E51F2B5CEE00738744 /* Parser.cpp */; };
 		05F471EA1F2B5CEF00738744 /* Box.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 05F471E71F2B5CEF00738744 /* Box.cpp */; };
+		BBDF508E2125780900491DE4 /* ISOBMFF.h in Headers */ = {isa = PBXBuildFile; fileRef = BBDF508C2125780800491DE4 /* ISOBMFF.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BBDF50952125785600491DE4 /* BinaryStream.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 051F4D3A1F5DDCFE00E6E12C /* BinaryStream.cpp */; };
+		BBDF50962125785600491DE4 /* Box.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 05F471E71F2B5CEF00738744 /* Box.cpp */; };
+		BBDF50972125785600491DE4 /* CDSC.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 05BFECE21F62F04D00A6909E /* CDSC.cpp */; };
+		BBDF50982125785600491DE4 /* COLR.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 05BFED051F63191F00A6909E /* COLR.cpp */; };
+		BBDF50992125785600491DE4 /* Container.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 057280A81F5F240700F02C27 /* Container.cpp */; };
+		BBDF509A2125785600491DE4 /* ContainerBox.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0596059B1F5DC4CE0005F8C9 /* ContainerBox.cpp */; };
+		BBDF509B2125785600491DE4 /* DIMG.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 05BFECE31F62F04D00A6909E /* DIMG.cpp */; };
+		BBDF509C2125785600491DE4 /* DisplayableObject.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 05EAD3931F65CD83003CCB9B /* DisplayableObject.cpp */; };
+		BBDF509D2125785600491DE4 /* DisplayableObjectContainer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 05EAD3971F65E215003CCB9B /* DisplayableObjectContainer.cpp */; };
+		BBDF509E2125785600491DE4 /* DREF.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 057280861F5EDBCF00F02C27 /* DREF.cpp */; };
+		BBDF509F2125785600491DE4 /* File.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0515C8C11F2A7807003B8594 /* File.cpp */; };
+		BBDF50A02125785600491DE4 /* FRMA.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 05812A4B1FA0BCB1003B88DF /* FRMA.cpp */; };
+		BBDF50A12125785600491DE4 /* FTYP.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 051F4D421F5E01C200E6E12C /* FTYP.cpp */; };
+		BBDF50A22125785600491DE4 /* FullBox.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0596059D1F5DC4D50005F8C9 /* FullBox.cpp */; };
+		BBDF50A32125785600491DE4 /* HDLR.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 059DBACE1F5EBC1000B7A940 /* HDLR.cpp */; };
+		BBDF50A42125785600491DE4 /* HVCC-Array-NALUnit.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 054480771F601749008CCDBA /* HVCC-Array-NALUnit.cpp */; };
+		BBDF50A52125785600491DE4 /* HVCC-Array.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 054480501F6006B1008CCDBA /* HVCC-Array.cpp */; };
+		BBDF50A62125785600491DE4 /* HVCC.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0531FB091F5FF45700BCD30D /* HVCC.cpp */; };
+		BBDF50A72125785600491DE4 /* IINF.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 057280791F5ED9FE00F02C27 /* IINF.cpp */; };
+		BBDF50A82125785600491DE4 /* ILOC-Item-Extent.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 057280A31F5F038A00F02C27 /* ILOC-Item-Extent.cpp */; };
+		BBDF50A92125785600491DE4 /* ILOC-Item.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 057280A11F5EFC9600F02C27 /* ILOC-Item.cpp */; };
+		BBDF50AA2125785600491DE4 /* ILOC.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 057280841F5EDBCE00F02C27 /* ILOC.cpp */; };
+		BBDF50AB2125785600491DE4 /* ImageGrid.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 05A50AB41F604C2F00EE8C08 /* ImageGrid.cpp */; };
+		BBDF50AC2125785600491DE4 /* INFE.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0572809F1F5EE19400F02C27 /* INFE.cpp */; };
+		BBDF50AD2125785600491DE4 /* IPCO.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 055D9AFC1F66700A0056DE16 /* IPCO.cpp */; };
+		BBDF50AE2125785600491DE4 /* IPMA-Entry-Association.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 05BFED121F638E4A00A6909E /* IPMA-Entry-Association.cpp */; };
+		BBDF50AF2125785600491DE4 /* IPMA-Entry.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 05BFED101F63894100A6909E /* IPMA-Entry.cpp */; };
+		BBDF50B02125785600491DE4 /* IPMA.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 05BFED0C1F63870300A6909E /* IPMA.cpp */; };
+		BBDF50B12125785600491DE4 /* IREF.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 057280851F5EDBCF00F02C27 /* IREF.cpp */; };
+		BBDF50B22125785600491DE4 /* IROT.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 057280AC1F5F44A000F02C27 /* IROT.cpp */; };
+		BBDF50B32125785600491DE4 /* ISPE.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 05BFED0A1F637E8500A6909E /* ISPE.cpp */; };
+		BBDF50B42125785600491DE4 /* Matrix.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 051F4D4B1F5E0DD800E6E12C /* Matrix.cpp */; };
+		BBDF50B52125785600491DE4 /* META.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 05A5A76B1F5EAFAE00D16AD9 /* META.cpp */; };
+		BBDF50B62125785600491DE4 /* MVHD.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 051F4D481F5E0AD500E6E12C /* MVHD.cpp */; };
+		BBDF50B72125785600491DE4 /* Parser.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 05F471E51F2B5CEE00738744 /* Parser.cpp */; };
+		BBDF50B82125785600491DE4 /* PITM.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 057280751F5ED7CE00F02C27 /* PITM.cpp */; };
+		BBDF50B92125785600491DE4 /* PIXI-Channel.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 055D9AF71F666B880056DE16 /* PIXI-Channel.cpp */; };
+		BBDF50BA2125785600491DE4 /* PIXI.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 055D9AF61F666B880056DE16 /* PIXI.cpp */; };
+		BBDF50BB2125785600491DE4 /* SCHM.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 05812A4E1FA0BEA6003B88DF /* SCHM.cpp */; };
+		BBDF50BC2125785600491DE4 /* SingleItemTypeReferenceBox.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 05BFECD41F62EE2700A6909E /* SingleItemTypeReferenceBox.cpp */; };
+		BBDF50BD2125785600491DE4 /* STSD.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0594C5D51F71541000456FF5 /* STSD.cpp */; };
+		BBDF50BE2125785600491DE4 /* THMB.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 05BFECE41F62F04D00A6909E /* THMB.cpp */; };
+		BBDF50BF2125785600491DE4 /* TKHD.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 05EAD3AC1F65FEFE003CCB9B /* TKHD.cpp */; };
+		BBDF50C02125785600491DE4 /* URL.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 05BFED001F62F7F200A6909E /* URL.cpp */; };
+		BBDF50C12125785600491DE4 /* URN.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 05BFED031F62F88700A6909E /* URN.cpp */; };
+		BBDF50C22125785600491DE4 /* Utils.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 05EAD38F1F65B345003CCB9B /* Utils.cpp */; };
+		BBDF50C32125785700491DE4 /* WIN32.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 05B8BB8C1FA4BFC300C67878 /* WIN32.cpp */; };
+		BBDF50D921257B4F00491DE4 /* ISOBMFF.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 057758FF1F67BFA300987694 /* ISOBMFF.hpp */; settings = {ATTRIBUTES = (Public, ); }; };
+		BBDF50DA21257B4F00491DE4 /* BinaryStream.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 051F4D381F5DDCF800E6E12C /* BinaryStream.hpp */; settings = {ATTRIBUTES = (Public, ); }; };
+		BBDF50DB21257B4F00491DE4 /* Box.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 05F471DD1F2B5CE500738744 /* Box.hpp */; settings = {ATTRIBUTES = (Public, ); }; };
+		BBDF50DC21257B4F00491DE4 /* CDSC.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 05BFECDD1F62EFDB00A6909E /* CDSC.hpp */; settings = {ATTRIBUTES = (Public, ); }; };
+		BBDF50DD21257B4F00491DE4 /* COLR.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 05BFED071F63192A00A6909E /* COLR.hpp */; settings = {ATTRIBUTES = (Public, ); }; };
+		BBDF50DE21257B4F00491DE4 /* Container.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 057280A61F5F210700F02C27 /* Container.hpp */; settings = {ATTRIBUTES = (Public, ); }; };
+		BBDF50DF21257B4F00491DE4 /* ContainerBox.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 059605931F5DC4130005F8C9 /* ContainerBox.hpp */; settings = {ATTRIBUTES = (Public, ); }; };
+		BBDF50E021257B4F00491DE4 /* DIMG.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 05BFECDC1F62EFDB00A6909E /* DIMG.hpp */; settings = {ATTRIBUTES = (Public, ); }; };
+		BBDF50E121257B4F00491DE4 /* DisplayableObject.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 0563BFA51F64768C0064F26B /* DisplayableObject.hpp */; settings = {ATTRIBUTES = (Public, ); }; };
+		BBDF50E221257B4F00491DE4 /* DisplayableObjectContainer.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 05EAD3961F65DC12003CCB9B /* DisplayableObjectContainer.hpp */; settings = {ATTRIBUTES = (Public, ); }; };
+		BBDF50E321257B4F00491DE4 /* DREF.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 0572807D1F5EDBC700F02C27 /* DREF.hpp */; settings = {ATTRIBUTES = (Public, ); }; };
+		BBDF50E421257B4F00491DE4 /* File.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 0515C8C21F2A7807003B8594 /* File.hpp */; settings = {ATTRIBUTES = (Public, ); }; };
+		BBDF50E521257B4F00491DE4 /* FRMA.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 05812A461FA0BC9A003B88DF /* FRMA.hpp */; settings = {ATTRIBUTES = (Public, ); }; };
+		BBDF50E621257B4F00491DE4 /* FTYP.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 051F4D441F5E01C800E6E12C /* FTYP.hpp */; settings = {ATTRIBUTES = (Public, ); }; };
+		BBDF50E721257B4F00491DE4 /* FullBox.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 059605971F5DC4300005F8C9 /* FullBox.hpp */; settings = {ATTRIBUTES = (Public, ); }; };
+		BBDF50E821257B4F00491DE4 /* HDLR.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 059DBAD31F5EBC2000B7A940 /* HDLR.hpp */; settings = {ATTRIBUTES = (Public, ); }; };
+		BBDF50E921257B4F00491DE4 /* HVCC.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 0531FB021F5FF41B00BCD30D /* HVCC.hpp */; settings = {ATTRIBUTES = (Public, ); }; };
+		BBDF50EA21257B4F00491DE4 /* IINF.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 057280771F5ED9E500F02C27 /* IINF.hpp */; settings = {ATTRIBUTES = (Public, ); }; };
+		BBDF50EB21257B4F00491DE4 /* ILOC.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 0572807C1F5EDBC700F02C27 /* ILOC.hpp */; settings = {ATTRIBUTES = (Public, ); }; };
+		BBDF50EC21257B4F00491DE4 /* ImageGrid.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 05A50AB61F604C3800EE8C08 /* ImageGrid.hpp */; settings = {ATTRIBUTES = (Public, ); }; };
+		BBDF50ED21257B4F00491DE4 /* INFE.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 0572809D1F5EE18B00F02C27 /* INFE.hpp */; settings = {ATTRIBUTES = (Public, ); }; };
+		BBDF50EE21257B4F00491DE4 /* IPCO.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 055D9AFA1F666FFF0056DE16 /* IPCO.hpp */; settings = {ATTRIBUTES = (Public, ); }; };
+		BBDF50EF21257B4F00491DE4 /* IPMA.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 05BFED0E1F63870F00A6909E /* IPMA.hpp */; settings = {ATTRIBUTES = (Public, ); }; };
+		BBDF50F021257B4F00491DE4 /* IREF.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 0572807E1F5EDBC700F02C27 /* IREF.hpp */; settings = {ATTRIBUTES = (Public, ); }; };
+		BBDF50F121257B4F00491DE4 /* IROT.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 057280AA1F5F449600F02C27 /* IROT.hpp */; settings = {ATTRIBUTES = (Public, ); }; };
+		BBDF50F221257B4F00491DE4 /* ISPE.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 05BFED081F637E7E00A6909E /* ISPE.hpp */; settings = {ATTRIBUTES = (Public, ); }; };
+		BBDF50F321257B4F00491DE4 /* Macros.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 0583F5A21F6CEB7400D5D49E /* Macros.hpp */; settings = {ATTRIBUTES = (Public, ); }; };
+		BBDF50F421257B4F00491DE4 /* Matrix.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 051F4D4A1F5E0DCB00E6E12C /* Matrix.hpp */; settings = {ATTRIBUTES = (Public, ); }; };
+		BBDF50F521257B4F00491DE4 /* META.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 05A5A7651F5EAF9A00D16AD9 /* META.hpp */; settings = {ATTRIBUTES = (Public, ); }; };
+		BBDF50F621257B4F00491DE4 /* MVHD.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 051F4D461F5E0AC400E6E12C /* MVHD.hpp */; settings = {ATTRIBUTES = (Public, ); }; };
+		BBDF50F721257B4F00491DE4 /* Parser.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 05F471DC1F2B5CE500738744 /* Parser.hpp */; settings = {ATTRIBUTES = (Public, ); }; };
+		BBDF50F821257B4F00491DE4 /* PITM.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 057280701F5ED7C200F02C27 /* PITM.hpp */; settings = {ATTRIBUTES = (Public, ); }; };
+		BBDF50F921257B4F00491DE4 /* PIXI.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 055D9AF11F666B640056DE16 /* PIXI.hpp */; settings = {ATTRIBUTES = (Public, ); }; };
+		BBDF50FA21257B4F00491DE4 /* SCHM.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 05812A4D1FA0BE9B003B88DF /* SCHM.hpp */; settings = {ATTRIBUTES = (Public, ); }; };
+		BBDF50FB21257B4F00491DE4 /* SingleItemTypeReferenceBox.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 05BFECD91F62EE2F00A6909E /* SingleItemTypeReferenceBox.hpp */; settings = {ATTRIBUTES = (Public, ); }; };
+		BBDF50FC21257B4F00491DE4 /* STSD.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 0594C5DA1F71542100456FF5 /* STSD.hpp */; settings = {ATTRIBUTES = (Public, ); }; };
+		BBDF50FD21257B4F00491DE4 /* THMB.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 05BFECDB1F62EFDB00A6909E /* THMB.hpp */; settings = {ATTRIBUTES = (Public, ); }; };
+		BBDF50FE21257B4F00491DE4 /* TKHD.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 05EAD3AB1F65FE15003CCB9B /* TKHD.hpp */; settings = {ATTRIBUTES = (Public, ); }; };
+		BBDF50FF21257B4F00491DE4 /* URL.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 05BFECE81F62F7E200A6909E /* URL.hpp */; settings = {ATTRIBUTES = (Public, ); }; };
+		BBDF510021257B4F00491DE4 /* URN.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 05BFED021F62F88100A6909E /* URN.hpp */; settings = {ATTRIBUTES = (Public, ); }; };
+		BBDF510121257B4F00491DE4 /* Utils.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 05EAD38B1F65B33C003CCB9B /* Utils.hpp */; settings = {ATTRIBUTES = (Public, ); }; };
+		BBDF510221257B4F00491DE4 /* WIN32.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 05B8BB871FA4BFB100C67878 /* WIN32.hpp */; settings = {ATTRIBUTES = (Public, ); }; };
+		BBDF51292125821D00491DE4 /* Object-IMPL.hpp in Headers */ = {isa = PBXBuildFile; fileRef = BBDF51272125821D00491DE4 /* Object-IMPL.hpp */; };
+		BBDF512A2125821D00491DE4 /* Object-IMPL.hpp in Headers */ = {isa = PBXBuildFile; fileRef = BBDF51272125821D00491DE4 /* Object-IMPL.hpp */; settings = {ATTRIBUTES = (Public, ); }; };
+		BBDF512B2125821D00491DE4 /* Object.hpp in Headers */ = {isa = PBXBuildFile; fileRef = BBDF51282125821D00491DE4 /* Object.hpp */; };
+		BBDF512C2125821D00491DE4 /* Object.hpp in Headers */ = {isa = PBXBuildFile; fileRef = BBDF51282125821D00491DE4 /* Object.hpp */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -114,7 +209,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		0515C8AF1F2A71A8003B8594 /* libISOBMFF.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libISOBMFF.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		0515C8AF1F2A71A8003B8594 /* libISOBMFF_macOS.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libISOBMFF_macOS.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		0515C8C11F2A7807003B8594 /* File.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = File.cpp; sourceTree = "<group>"; };
 		0515C8C21F2A7807003B8594 /* File.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = File.hpp; sourceTree = "<group>"; };
 		051F4D1A1F5DD03700E6E12C /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
@@ -258,6 +353,11 @@
 		05F471E51F2B5CEE00738744 /* Parser.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Parser.cpp; sourceTree = "<group>"; };
 		05F471E71F2B5CEF00738744 /* Box.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Box.cpp; sourceTree = "<group>"; };
 		BB95E26121183A3500D032F2 /* MadvMP4Boxes.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MadvMP4Boxes.h; sourceTree = "<group>"; };
+		BBDF508A2125780600491DE4 /* ISOBMFF.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ISOBMFF.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BBDF508C2125780800491DE4 /* ISOBMFF.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ISOBMFF.h; sourceTree = "<group>"; };
+		BBDF508D2125780900491DE4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BBDF51272125821D00491DE4 /* Object-IMPL.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = "Object-IMPL.hpp"; sourceTree = "<group>"; };
+		BBDF51282125821D00491DE4 /* Object.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Object.hpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -273,7 +373,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				057224472011213C00DC0502 /* libc++.tbd in Frameworks */,
-				05BFED1A1F63952E00A6909E /* libISOBMFF.a in Frameworks */,
+				05BFED1A1F63952E00A6909E /* libISOBMFF_macOS.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -281,8 +381,15 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0544CCCD2277275E004A2499 /* XSTest.framework in Frameworks */,
-				05DA96061F2A7D5B005F46DB /* libISOBMFF.a in Frameworks */,
+				05DA96121F2A7DC3005F46DB /* GoogleMock.framework in Frameworks */,
+				05DA96061F2A7D5B005F46DB /* libISOBMFF_macOS.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BBDF50872125780600491DE4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -292,6 +399,7 @@
 		0515C8A61F2A71A8003B8594 = {
 			isa = PBXGroup;
 			children = (
+				BBDF51252125821D00491DE4 /* XS */,
 				057224102011201F00DC0502 /* xcconfig */,
 				051F4D1A1F5DD03700E6E12C /* README.md */,
 				057759011F67CF6500987694 /* LICENSE */,
@@ -301,6 +409,7 @@
 				05BFED231F63956C00A6909E /* ISOBMFF-Dump */,
 				05F471F01F2B5E6B00738744 /* Example-Files */,
 				05DA96021F2A7D5B005F46DB /* ISOBMFF-Tests */,
+				BBDF508B2125780800491DE4 /* ISOBMFF */,
 				0515C8B01F2A71A8003B8594 /* Products */,
 				057224452011213C00DC0502 /* Frameworks */,
 			);
@@ -309,9 +418,10 @@
 		0515C8B01F2A71A8003B8594 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				0515C8AF1F2A71A8003B8594 /* libISOBMFF.a */,
+				0515C8AF1F2A71A8003B8594 /* libISOBMFF_macOS.a */,
 				05DA96011F2A7D5B005F46DB /* ISOBMFF-Tests.xctest */,
 				05BFED221F63952E00A6909E /* ISOBMFF-Dump */,
+				BBDF508A2125780600491DE4 /* ISOBMFF.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -592,6 +702,34 @@
 			path = "Example-Files";
 			sourceTree = "<group>";
 		};
+		BBDF508B2125780800491DE4 /* ISOBMFF */ = {
+			isa = PBXGroup;
+			children = (
+				BBDF508C2125780800491DE4 /* ISOBMFF.h */,
+				BBDF508D2125780900491DE4 /* Info.plist */,
+			);
+			name = ISOBMFF;
+			path = ISOBMFF_macOS;
+			sourceTree = "<group>";
+		};
+		BBDF51252125821D00491DE4 /* XS */ = {
+			isa = PBXGroup;
+			children = (
+				BBDF51262125821D00491DE4 /* PIMPL */,
+			);
+			name = XS;
+			path = Submodules/PIMPL/PIMPL/include/XS;
+			sourceTree = "<group>";
+		};
+		BBDF51262125821D00491DE4 /* PIMPL */ = {
+			isa = PBXGroup;
+			children = (
+				BBDF51272125821D00491DE4 /* Object-IMPL.hpp */,
+				BBDF51282125821D00491DE4 /* Object.hpp */,
+			);
+			path = PIMPL;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -599,17 +737,71 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BBDF51292125821D00491DE4 /* Object-IMPL.hpp in Headers */,
 				05B8BB8B1FA4BFB200C67878 /* WIN32.hpp in Headers */,
 				057759001F67BFA300987694 /* ISOBMFF.hpp in Headers */,
+				BBDF512B2125821D00491DE4 /* Object.hpp in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BBDF50852125780600491DE4 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BBDF512C2125821D00491DE4 /* Object.hpp in Headers */,
+				BBDF512A2125821D00491DE4 /* Object-IMPL.hpp in Headers */,
+				BBDF50D921257B4F00491DE4 /* ISOBMFF.hpp in Headers */,
+				BBDF50DA21257B4F00491DE4 /* BinaryStream.hpp in Headers */,
+				BBDF50DB21257B4F00491DE4 /* Box.hpp in Headers */,
+				BBDF50DC21257B4F00491DE4 /* CDSC.hpp in Headers */,
+				BBDF50DD21257B4F00491DE4 /* COLR.hpp in Headers */,
+				BBDF50DE21257B4F00491DE4 /* Container.hpp in Headers */,
+				BBDF50DF21257B4F00491DE4 /* ContainerBox.hpp in Headers */,
+				BBDF50E021257B4F00491DE4 /* DIMG.hpp in Headers */,
+				BBDF50E121257B4F00491DE4 /* DisplayableObject.hpp in Headers */,
+				BBDF50E221257B4F00491DE4 /* DisplayableObjectContainer.hpp in Headers */,
+				BBDF50E321257B4F00491DE4 /* DREF.hpp in Headers */,
+				BBDF50E421257B4F00491DE4 /* File.hpp in Headers */,
+				BBDF50E521257B4F00491DE4 /* FRMA.hpp in Headers */,
+				BBDF50E621257B4F00491DE4 /* FTYP.hpp in Headers */,
+				BBDF50E721257B4F00491DE4 /* FullBox.hpp in Headers */,
+				BBDF50E821257B4F00491DE4 /* HDLR.hpp in Headers */,
+				BBDF50E921257B4F00491DE4 /* HVCC.hpp in Headers */,
+				BBDF50EA21257B4F00491DE4 /* IINF.hpp in Headers */,
+				BBDF50EB21257B4F00491DE4 /* ILOC.hpp in Headers */,
+				BBDF50EC21257B4F00491DE4 /* ImageGrid.hpp in Headers */,
+				BBDF50ED21257B4F00491DE4 /* INFE.hpp in Headers */,
+				BBDF50EE21257B4F00491DE4 /* IPCO.hpp in Headers */,
+				BBDF50EF21257B4F00491DE4 /* IPMA.hpp in Headers */,
+				BBDF50F021257B4F00491DE4 /* IREF.hpp in Headers */,
+				BBDF50F121257B4F00491DE4 /* IROT.hpp in Headers */,
+				BBDF50F221257B4F00491DE4 /* ISPE.hpp in Headers */,
+				BBDF50F321257B4F00491DE4 /* Macros.hpp in Headers */,
+				BBDF50F421257B4F00491DE4 /* Matrix.hpp in Headers */,
+				BBDF50F521257B4F00491DE4 /* META.hpp in Headers */,
+				BBDF50F621257B4F00491DE4 /* MVHD.hpp in Headers */,
+				BBDF50F721257B4F00491DE4 /* Parser.hpp in Headers */,
+				BBDF50F821257B4F00491DE4 /* PITM.hpp in Headers */,
+				BBDF50F921257B4F00491DE4 /* PIXI.hpp in Headers */,
+				BBDF50FA21257B4F00491DE4 /* SCHM.hpp in Headers */,
+				BBDF50FB21257B4F00491DE4 /* SingleItemTypeReferenceBox.hpp in Headers */,
+				BBDF50FC21257B4F00491DE4 /* STSD.hpp in Headers */,
+				BBDF50FD21257B4F00491DE4 /* THMB.hpp in Headers */,
+				BBDF50FE21257B4F00491DE4 /* TKHD.hpp in Headers */,
+				BBDF50FF21257B4F00491DE4 /* URL.hpp in Headers */,
+				BBDF510021257B4F00491DE4 /* URN.hpp in Headers */,
+				BBDF510121257B4F00491DE4 /* Utils.hpp in Headers */,
+				BBDF510221257B4F00491DE4 /* WIN32.hpp in Headers */,
+				BBDF508E2125780900491DE4 /* ISOBMFF.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		0515C8AE1F2A71A8003B8594 /* ISOBMFF */ = {
+		0515C8AE1F2A71A8003B8594 /* ISOBMFF_macOS */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 0515C8BA1F2A71A8003B8594 /* Build configuration list for PBXNativeTarget "ISOBMFF" */;
+			buildConfigurationList = 0515C8BA1F2A71A8003B8594 /* Build configuration list for PBXNativeTarget "ISOBMFF_macOS" */;
 			buildPhases = (
 				0515C8AB1F2A71A8003B8594 /* Sources */,
 				0515C8AC1F2A71A8003B8594 /* Frameworks */,
@@ -619,9 +811,9 @@
 			);
 			dependencies = (
 			);
-			name = ISOBMFF;
+			name = ISOBMFF_macOS;
 			productName = IBMFF;
-			productReference = 0515C8AF1F2A71A8003B8594 /* libISOBMFF.a */;
+			productReference = 0515C8AF1F2A71A8003B8594 /* libISOBMFF_macOS.a */;
 			productType = "com.apple.product-type.library.static";
 		};
 		05BFED141F63952E00A6909E /* ISOBMFF-Dump */ = {
@@ -661,6 +853,24 @@
 			productReference = 05DA96011F2A7D5B005F46DB /* ISOBMFF-Tests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
+		BBDF50892125780600491DE4 /* ISOBMFF */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BBDF50942125780900491DE4 /* Build configuration list for PBXNativeTarget "ISOBMFF" */;
+			buildPhases = (
+				BBDF50852125780600491DE4 /* Headers */,
+				BBDF50862125780600491DE4 /* Sources */,
+				BBDF50872125780600491DE4 /* Frameworks */,
+				BBDF50882125780600491DE4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ISOBMFF;
+			productName = ISOBMFF_macOS;
+			productReference = BBDF508A2125780600491DE4 /* ISOBMFF.framework */;
+			productType = "com.apple.product-type.framework";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -679,6 +889,10 @@
 					};
 					05DA96001F2A7D5B005F46DB = {
 						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+					};
+					BBDF50892125780600491DE4 = {
+						CreatedOnToolsVersion = 10.0;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -702,9 +916,10 @@
 			);
 			projectRoot = "";
 			targets = (
-				0515C8AE1F2A71A8003B8594 /* ISOBMFF */,
+				0515C8AE1F2A71A8003B8594 /* ISOBMFF_macOS */,
 				05DA96001F2A7D5B005F46DB /* ISOBMFF-Tests */,
 				05BFED141F63952E00A6909E /* ISOBMFF-Dump */,
+				BBDF50892125780600491DE4 /* ISOBMFF */,
 			);
 		};
 /* End PBXProject section */
@@ -721,6 +936,13 @@
 
 /* Begin PBXResourcesBuildPhase section */
 		05DA95FF1F2A7D5B005F46DB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BBDF50882125780600491DE4 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -800,6 +1022,60 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		BBDF50862125780600491DE4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BBDF50952125785600491DE4 /* BinaryStream.cpp in Sources */,
+				BBDF50962125785600491DE4 /* Box.cpp in Sources */,
+				BBDF50972125785600491DE4 /* CDSC.cpp in Sources */,
+				BBDF50982125785600491DE4 /* COLR.cpp in Sources */,
+				BBDF50992125785600491DE4 /* Container.cpp in Sources */,
+				BBDF509A2125785600491DE4 /* ContainerBox.cpp in Sources */,
+				BBDF509B2125785600491DE4 /* DIMG.cpp in Sources */,
+				BBDF509C2125785600491DE4 /* DisplayableObject.cpp in Sources */,
+				BBDF509D2125785600491DE4 /* DisplayableObjectContainer.cpp in Sources */,
+				BBDF509E2125785600491DE4 /* DREF.cpp in Sources */,
+				BBDF509F2125785600491DE4 /* File.cpp in Sources */,
+				BBDF50A02125785600491DE4 /* FRMA.cpp in Sources */,
+				BBDF50A12125785600491DE4 /* FTYP.cpp in Sources */,
+				BBDF50A22125785600491DE4 /* FullBox.cpp in Sources */,
+				BBDF50A32125785600491DE4 /* HDLR.cpp in Sources */,
+				BBDF50A42125785600491DE4 /* HVCC-Array-NALUnit.cpp in Sources */,
+				BBDF50A52125785600491DE4 /* HVCC-Array.cpp in Sources */,
+				BBDF50A62125785600491DE4 /* HVCC.cpp in Sources */,
+				BBDF50A72125785600491DE4 /* IINF.cpp in Sources */,
+				BBDF50A82125785600491DE4 /* ILOC-Item-Extent.cpp in Sources */,
+				BBDF50A92125785600491DE4 /* ILOC-Item.cpp in Sources */,
+				BBDF50AA2125785600491DE4 /* ILOC.cpp in Sources */,
+				BBDF50AB2125785600491DE4 /* ImageGrid.cpp in Sources */,
+				BBDF50AC2125785600491DE4 /* INFE.cpp in Sources */,
+				BBDF50AD2125785600491DE4 /* IPCO.cpp in Sources */,
+				BBDF50AE2125785600491DE4 /* IPMA-Entry-Association.cpp in Sources */,
+				BBDF50AF2125785600491DE4 /* IPMA-Entry.cpp in Sources */,
+				BBDF50B02125785600491DE4 /* IPMA.cpp in Sources */,
+				BBDF50B12125785600491DE4 /* IREF.cpp in Sources */,
+				BBDF50B22125785600491DE4 /* IROT.cpp in Sources */,
+				BBDF50B32125785600491DE4 /* ISPE.cpp in Sources */,
+				BBDF50B42125785600491DE4 /* Matrix.cpp in Sources */,
+				BBDF50B52125785600491DE4 /* META.cpp in Sources */,
+				BBDF50B62125785600491DE4 /* MVHD.cpp in Sources */,
+				BBDF50B72125785600491DE4 /* Parser.cpp in Sources */,
+				BBDF50B82125785600491DE4 /* PITM.cpp in Sources */,
+				BBDF50B92125785600491DE4 /* PIXI-Channel.cpp in Sources */,
+				BBDF50BA2125785600491DE4 /* PIXI.cpp in Sources */,
+				BBDF50BB2125785600491DE4 /* SCHM.cpp in Sources */,
+				BBDF50BC2125785600491DE4 /* SingleItemTypeReferenceBox.cpp in Sources */,
+				BBDF50BD2125785600491DE4 /* STSD.cpp in Sources */,
+				BBDF50BE2125785600491DE4 /* THMB.cpp in Sources */,
+				BBDF50BF2125785600491DE4 /* TKHD.cpp in Sources */,
+				BBDF50C02125785600491DE4 /* URL.cpp in Sources */,
+				BBDF50C12125785600491DE4 /* URN.cpp in Sources */,
+				BBDF50C22125785600491DE4 /* Utils.cpp in Sources */,
+				BBDF50C32125785700491DE4 /* WIN32.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -810,12 +1086,12 @@
 		};
 		05BFED151F63952E00A6909E /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 0515C8AE1F2A71A8003B8594 /* ISOBMFF */;
+			target = 0515C8AE1F2A71A8003B8594 /* ISOBMFF_macOS */;
 			targetProxy = 05BFED161F63952E00A6909E /* PBXContainerItemProxy */;
 		};
 		05DA96081F2A7D5B005F46DB /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 0515C8AE1F2A71A8003B8594 /* ISOBMFF */;
+			target = 0515C8AE1F2A71A8003B8594 /* ISOBMFF_macOS */;
 			targetProxy = 05DA96071F2A7D5B005F46DB /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -897,6 +1173,151 @@
 			};
 			name = Release;
 		};
+		BBDF508F2125780900491DE4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = XNCE899229;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				FRAMEWORK_VERSION = A;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_FILE = ISOBMFF_macOS/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.madv360.ISOBMFF-macOS";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		BBDF50902125780900491DE4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = XNCE899229;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				FRAMEWORK_VERSION = A;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_FILE = ISOBMFF_macOS/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.madv360.ISOBMFF-macOS";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -909,7 +1330,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		0515C8BA1F2A71A8003B8594 /* Build configuration list for PBXNativeTarget "ISOBMFF" */ = {
+		0515C8BA1F2A71A8003B8594 /* Build configuration list for PBXNativeTarget "ISOBMFF_macOS" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				0515C8BB1F2A71A8003B8594 /* Debug */,
@@ -932,6 +1353,15 @@
 			buildConfigurations = (
 				05DA96091F2A7D5B005F46DB /* Debug */,
 				05DA960A1F2A7D5B005F46DB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BBDF50942125780900491DE4 /* Build configuration list for PBXNativeTarget "ISOBMFF" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BBDF508F2125780900491DE4 /* Debug */,
+				BBDF50902125780900491DE4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

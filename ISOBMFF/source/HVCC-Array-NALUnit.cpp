@@ -45,7 +45,7 @@ class XS::PIMPL::Object< ISOBMFF::HVCC::Array::NALUnit >::IMPL
 };
 
 #define XS_PIMPL_CLASS ISOBMFF::HVCC::Array::NALUnit
-#include <XS/PIMPL/Object-IMPL.hpp>
+#include <ISOBMFF/Object-IMPL.hpp>
 
 namespace ISOBMFF
 {

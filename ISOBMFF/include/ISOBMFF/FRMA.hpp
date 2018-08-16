@@ -31,7 +31,7 @@
 #ifndef ISOBMFF_FRMA_HPP
 #define ISOBMFF_FRMA_HPP
 
-#include <XS/PIMPL/Object.hpp>
+#include <ISOBMFF/Object.hpp>
 #include <ISOBMFF/Macros.hpp>
 #include <ISOBMFF/Box.hpp>
 

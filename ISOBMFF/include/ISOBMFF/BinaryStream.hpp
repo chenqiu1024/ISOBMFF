@@ -35,7 +35,7 @@
 #include <iostream>
 #include <cstdint>
 #include <vector>
-#include <XS/PIMPL/Object.hpp>
+#include <ISOBMFF/Object.hpp>
 #include <ISOBMFF/Macros.hpp>
 #include <ISOBMFF/Matrix.hpp>
 

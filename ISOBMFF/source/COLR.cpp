@@ -50,7 +50,7 @@ class XS::PIMPL::Object< ISOBMFF::COLR >::IMPL
 };
 
 #define XS_PIMPL_CLASS ISOBMFF::COLR
-#include <XS/PIMPL/Object-IMPL.hpp>
+#include <ISOBMFF/Object-IMPL.hpp>
 
 namespace ISOBMFF
 {

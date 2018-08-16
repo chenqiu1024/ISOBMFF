@@ -44,7 +44,7 @@ class XS::PIMPL::Object< ISOBMFF::STSD >::IMPL
 };
 
 #define XS_PIMPL_CLASS ISOBMFF::STSD
-#include <XS/PIMPL/Object-IMPL.hpp>
+#include <ISOBMFF/Object-IMPL.hpp>
 
 namespace ISOBMFF
 {

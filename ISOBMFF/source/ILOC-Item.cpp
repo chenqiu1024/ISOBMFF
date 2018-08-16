@@ -47,7 +47,7 @@ class XS::PIMPL::Object< ISOBMFF::ILOC::Item >::IMPL
 };
 
 #define XS_PIMPL_CLASS ISOBMFF::ILOC::Item
-#include <XS/PIMPL/Object-IMPL.hpp>
+#include <ISOBMFF/Object-IMPL.hpp>
 
 namespace ISOBMFF
 {

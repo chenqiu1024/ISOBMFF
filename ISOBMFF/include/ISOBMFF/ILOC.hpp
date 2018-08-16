@@ -31,7 +31,7 @@
 #ifndef ISOBMFF_ILOC_HPP
 #define ISOBMFF_ILOC_HPP
 
-#include <XS/PIMPL/Object.hpp>
+#include <ISOBMFF/Object.hpp>
 #include <ISOBMFF/Macros.hpp>
 #include <ISOBMFF/FullBox.hpp>
 #include <ISOBMFF/DisplayableObjectContainer.hpp>

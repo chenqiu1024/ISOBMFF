@@ -57,7 +57,7 @@ class XS::PIMPL::Object< ISOBMFF::TKHD >::IMPL
 };
 
 #define XS_PIMPL_CLASS ISOBMFF::TKHD
-#include <XS/PIMPL/Object-IMPL.hpp>
+#include <ISOBMFF/Object-IMPL.hpp>
 
 namespace ISOBMFF
 {

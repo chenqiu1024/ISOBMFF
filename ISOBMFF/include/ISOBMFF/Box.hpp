@@ -31,7 +31,7 @@
 #ifndef ISOBMFF_BOX_HPP
 #define ISOBMFF_BOX_HPP
 
-#include <XS/PIMPL/Object.hpp>
+#include <ISOBMFF/Object.hpp>
 #include <ISOBMFF/Macros.hpp>
 #include <ISOBMFF/BinaryStream.hpp>
 #include <ISOBMFF/DisplayableObject.hpp>

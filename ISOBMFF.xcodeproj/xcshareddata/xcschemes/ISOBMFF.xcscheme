@@ -15,8 +15,8 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "0515C8AE1F2A71A8003B8594"
-               BuildableName = "libISOBMFF.a"
-               BlueprintName = "ISOBMFF"
+               BuildableName = "libISOBMFF_macOS.a"
+               BlueprintName = "ISOBMFF_macOS"
                ReferencedContainer = "container:ISOBMFF.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -26,17 +26,8 @@
       buildConfiguration = "Debug"
       selectedDebuggerIdentifier = "Xcode.DebuggerFoundation.Debugger.LLDB"
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
-      shouldUseLaunchSchemeArgsEnv = "YES"
-      codeCoverageEnabled = "YES">
-      <MacroExpansion>
-         <BuildableReference
-            BuildableIdentifier = "primary"
-            BlueprintIdentifier = "0515C8AE1F2A71A8003B8594"
-            BuildableName = "libISOBMFF.a"
-            BlueprintName = "ISOBMFF"
-            ReferencedContainer = "container:ISOBMFF.xcodeproj">
-         </BuildableReference>
-      </MacroExpansion>
+      codeCoverageEnabled = "YES"
+      shouldUseLaunchSchemeArgsEnv = "YES">
       <Testables>
          <TestableReference
             skipped = "NO">
@@ -49,6 +40,17 @@
             </BuildableReference>
          </TestableReference>
       </Testables>
+      <MacroExpansion>
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "0515C8AE1F2A71A8003B8594"
+            BuildableName = "libISOBMFF_macOS.a"
+            BlueprintName = "ISOBMFF_macOS"
+            ReferencedContainer = "container:ISOBMFF.xcodeproj">
+         </BuildableReference>
+      </MacroExpansion>
+      <AdditionalOptions>
+      </AdditionalOptions>
    </TestAction>
    <LaunchAction
       buildConfiguration = "Debug"
@@ -64,8 +66,8 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "0515C8AE1F2A71A8003B8594"
-            BuildableName = "libISOBMFF.a"
-            BlueprintName = "ISOBMFF"
+            BuildableName = "libISOBMFF_macOS.a"
+            BlueprintName = "ISOBMFF_macOS"
             ReferencedContainer = "container:ISOBMFF.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
@@ -80,8 +82,8 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "0515C8AE1F2A71A8003B8594"
-            BuildableName = "libISOBMFF.a"
-            BlueprintName = "ISOBMFF"
+            BuildableName = "libISOBMFF_macOS.a"
+            BlueprintName = "ISOBMFF_macOS"
             ReferencedContainer = "container:ISOBMFF.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
