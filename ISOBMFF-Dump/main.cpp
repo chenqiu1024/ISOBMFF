@@ -100,6 +100,10 @@ void handleBox(void* context, uint32_t boxType, uint8_t* boxData, int boxSize, b
         case MADV_MP4_USERDATA_GPS_TYPE:
             break;
         case MADV_MP4_USERDATA_LUT_TYPE:
+        {
+            MADV_MP4_USERDATA_LUT_t* pLUTStruct = (MADV_MP4_USERDATA_LUT_t*)boxData;
+            printf("LUT size = %d\n", pLUTStruct->size);
+        }
             break;
         case MADV_MP4_USERDATA_GYRO_TYPE:
             break;
@@ -211,6 +215,5 @@ int main( int argc, const char * argv[] )
 //    #if defined( _WIN32 ) && defined( _DEBUG )
 //    getchar();
 //    #endif
-    
     return EXIT_SUCCESS;
 }
