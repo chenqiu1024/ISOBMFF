@@ -31,7 +31,7 @@
 #ifndef ISOBMFF_CDSC_HPP
 #define ISOBMFF_CDSC_HPP
 
-#include <ISOBMFF//Object.hpp>
+#include <ISOBMFF/Object.hpp>
 #include <ISOBMFF/Macros.hpp>
 #include <ISOBMFF/SingleItemTypeReferenceBox.hpp>
 
